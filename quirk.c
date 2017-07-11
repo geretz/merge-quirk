@@ -1,14 +1,16 @@
 
-	// a few comment lines
-	// that existed 
-	// in the common ancestor
-	// that get changed
-	if(1) {
-			if (f(1, 2))
+	// a few comment lines - change 1
+	// that existed - change 2
+	// in the common ancestor - change 3
+	// that get changed - change 4
+	if(1)
+	{
+		if (f(1, 2))
+		{
+			if (thisLineMightDisapper(42))
 			{
-				if (thisLineMightDisapper(42)) {
-					t = time(0);
-				}
+				t = time(0);
 			}
+		}
 	}
 }
